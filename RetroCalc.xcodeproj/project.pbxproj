@@ -14,6 +14,7 @@
 		8C10E9001C573BE300C837D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C10E8FE1C573BE300C837D0 /* LaunchScreen.storyboard */; };
 		8C10E90B1C573BE300C837D0 /* RetroCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10E90A1C573BE300C837D0 /* RetroCalcTests.swift */; };
 		8C10E9161C573BE300C837D0 /* RetroCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10E9151C573BE300C837D0 /* RetroCalcUITests.swift */; };
+		8C10E9241C5741A800C837D0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C10E9231C5741A800C837D0 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C10E9111C573BE300C837D0 /* RetroCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C10E9151C573BE300C837D0 /* RetroCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalcUITests.swift; sourceTree = "<group>"; };
 		8C10E9171C573BE300C837D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C10E9231C5741A800C837D0 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8C10E8F41C573BE300C837D0 /* RetroCalc */ = {
 			isa = PBXGroup;
 			children = (
+				8C10E9231C5741A800C837D0 /* btn.wav */,
 				8C10E8F51C573BE300C837D0 /* AppDelegate.swift */,
 				8C10E8F71C573BE300C837D0 /* ViewController.swift */,
 				8C10E8F91C573BE300C837D0 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				8C10E9001C573BE300C837D0 /* LaunchScreen.storyboard in Resources */,
 				8C10E8FD1C573BE300C837D0 /* Assets.xcassets in Resources */,
 				8C10E8FB1C573BE300C837D0 /* Main.storyboard in Resources */,
+				8C10E9241C5741A800C837D0 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

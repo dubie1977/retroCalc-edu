@@ -491,6 +491,7 @@
 				8C10E91C1C573BE300C837D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C10E91D1C573BE300C837D0 /* Build configuration list for PBXNativeTarget "RetroCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				8C10E91F1C573BE300C837D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C10E9201C573BE300C837D0 /* Build configuration list for PBXNativeTarget "RetroCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +509,7 @@
 				8C10E9221C573BE300C837D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

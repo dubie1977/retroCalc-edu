@@ -42,6 +42,10 @@ class ViewController: UIViewController {
     
     //actions
     @IBAction func numberPressed(button: UIButton){
+        if(currentOperator == Operator.equals){
+            rightSide = ""
+            currentOperator = Operator.empty
+        }
         if(rightSide.characters.count < 20){
             rightSide+="\(button.tag)"
             valueLbl.text=rightSide
@@ -125,6 +129,7 @@ class ViewController: UIViewController {
                 }
                 //display result and save on right side
                 valueLbl.text = rightSide
+                currentOperator = Operator.equals
             } else {
                 processOperator(Operator.equals)
                 processOperator(action)
